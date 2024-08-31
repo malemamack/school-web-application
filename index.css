@@ -1,0 +1,88 @@
+/* --this is the starting point  of the style --*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+/* --this is the style of the main page-- */
+
+.main{
+    width: 100%;
+    height: 130vh;
+    font-size: larger;
+    background-color: skyblue;
+
+}
+
+/* -- the style of the logo image */
+
+.pic1{
+    width: px;
+    height: px;
+}
+
+/* -- the style of the navigation bar */
+
+.navbar{
+
+    display: flex;
+    background-color: navy;
+    width: 100%;
+    height: 10%;
+
+}
+
+.menu{
+   padding-top: 27px; 
+   padding-left: 150px;
+   text-align: center;
+   
+}
+
+.search1{
+    padding-left: 350px;
+    margin-top: 25px;
+
+}
+
+.input1{
+    padding-left: 15px;
+    height: 30px;
+    border: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.button2{
+    margin-left: -4px;
+    height: 30px;
+    background-color: skyblue;
+    width: 60px;
+    border: 0;
+    border-top-right-radius: 20px;border-bottom-right-radius: 20px;
+
+}
+
+/* --button in the navigation bar-- */
+
+.button1{
+    margin-left: 17px;
+    width: 80px;
+    height: 37px;
+    background-color: skyblue;
+    border: 0;
+    border-radius: 27px;
+}
+
+.button1:hover{
+    background-color: #fff;
+    transition: 2s ease-in-out;
+}
+
+.button1 a{
+    text-decoration: none;
+    color: #000;
+}
+
