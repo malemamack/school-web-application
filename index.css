@@ -65,6 +65,15 @@
 
 }
 
+.button2:hover{
+    background-color: #fff;
+}
+
+.button2 a{
+    text-decoration: none;
+    color:#000;
+}
+
 /* --button in the navigation bar-- */
 
 .button1{
@@ -86,10 +95,73 @@
     color: #000;
 }
 
+/* -- this is the style of the paragraph in the body section of the our page */
+
 .container2{
 
     margin: 50px;
     /* padding: 20px; */
 
 }
+/* -- the style of the footer -- */
 
+.mainfoot{
+    display: flex;
+    background-color: navy;
+    height: 20vh;
+}
+
+.footer1{
+    color: #fff;
+    margin: 14px;
+    margin-top: 10px;
+
+}
+
+.footer1 .input2{
+    border:0;
+    border-radius:17px;
+    height: 4vh;
+    padding-left: 10px;
+}
+
+.footer1 .input3{
+    margin-top: 5px;
+    width: 80%;
+    height: 50%;
+    border: 0;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+
+.footer2{
+    color: #fff;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.footer3{
+    margin-top:10px;
+    color: #fff;
+    margin-left: 20px;
+
+}
+
+.button3{
+
+    margin-left: 210px;
+    margin-top: 5px;
+    width: 70px;
+    height: 30px;
+    border: 0;
+    border-radius: 27px;
+    
+}
+.button3:hover{
+    background-color: skyblue;
+}
+
+.button3 a{
+    text-decoration: none;
+    color: #000;
+}
