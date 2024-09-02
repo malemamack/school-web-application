@@ -85,6 +85,22 @@
     text-decoration: none;
     color: #000;
 }
+h3{
+    margin-top: 80px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 14;
+}
+h4{
+    margin-right: 200px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    margin: auto;
+    
+}
+
+
 
 /* academics */
 
