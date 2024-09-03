@@ -1,0 +1,24 @@
+/* General container styling */
+#announcements-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Announcement styling */
+.announcement {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.announcement h2 {
+    margin-top: 0;
+
+}
+
+.announcement small {
+    color: #555;
+}

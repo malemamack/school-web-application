@@ -12,27 +12,26 @@
     width: 100%;
     height: 130vh;
     font-size: larger;
-    background-color: skyblue;
+    background-image: url(schooltype-language-1.jpg);
+    background-size: cover;
+    background-position: center;
+    
 
 }
 
 /* -- the style of the logo image */
 
-.pic1{
-    width: px;
-    height: px;
-}
 
 /* -- the style of the navigation bar */
 
-/* .navbar{
+.navbar{
 
     display: flex;
-    background-color: navy;
+    background-color: rgb(238, 219, 184);
     width: 100%;
-    height: 10%;
+    height: 90px;
 
-} */
+}
 
 .menu{
    padding-top: 27px; 
@@ -44,7 +43,7 @@
 .search1{
     padding-left: 350px;
     margin-top: 25px;
-
+    
 }
 
 .input1{
@@ -53,27 +52,33 @@
     border: 0;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    
 }
 
 .button2{
     margin-left: -4px;
     height: 30px;
-    background-color: skyblue;
+    background-color: rgb(238, 159, 14);
     width: 60px;
     border: 0;
     border-top-right-radius: 20px;border-bottom-right-radius: 20px;
 
 }
+.button2 a{
+    text-decoration: none;
+}
 
 /* --button in the navigation bar-- */
 
 .button1{
-    margin-left: 17px;
-    width: 80px;
-    height: 37px;
-    background-color: skyblue;
-    border: 0;
-    border-radius: 27px;
+    /* margin-left: 20px;
+    width: 90px;
+    height: 40px; */
+    padding: 15px;
+    width: 145px;
+    background-color: rgb(238, 159, 14);
+    border: none;
+    border-radius: 20px;
 }
 
 .button1:hover{
@@ -83,59 +88,200 @@
 
 .button1 a{
     text-decoration: none;
-    color: #000;
+    color: rgb(7, 30, 105); 
+    text-transform: uppercase;
+    font-weight: bold;
 }
-
-/* academics */
-
-nav{
-    /* display: flex; */
+.form{
+    width: 300px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    border-radius: 10px;
+    padding: 25px;
+    left: 40px;
+    margin-top: 60px;
 }
-
-.logo{
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+     text-align: center;
+     color: rgb(7, 30, 105);
+     font-size: 22px;
+     background-color: white;
+     border-radius: 10px;
+     padding: 8px;
+     margin: 2px;
 
 }
-
-h1{
+.container2{
+    color: white;
+    padding-left: 350px;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    text-transform: capitalize;
+    font-size: 25px;
 
 }
-
-.navbar{
-    background-color: navy;
+.content{
+    background-image: url(Imagen8.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
 }
+.content p{
+    color: white;
+    padding-top: 400px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
 
-li{
+}
+footer ul{
+    float: left;
+    margin-left: 50px;
+}
+footer ul li{
     display: inline-block;
 }
+footer ul li a{
+    margin-right: 50px;
+    padding: 30px;
+    
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background-color: white;
+    border-bottom: 1px solid rgb(238, 159, 14);
+    border-right: none;
+    border-left: none;
+    color: rgb(238, 159, 14);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
 
-li a{
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: rgb(7, 30, 105);
+    font-family: Arial;
+}
+.btn{
+    width: 60px;
+    height: 30px;
+    background: rgb(238, 159, 14);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.btn:hover{
+    background: white;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(7, 30, 105);
+}
+.link{
+    color: rgb(238, 159, 14);
+}
+.link a{
     color: #fff;
-
+}
+.link a:hover{
+    color: rgb(7, 30, 105);
 }
 
-.search0{
-    float: right;
-}
+/* dropdown styling */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  rgb(238, 159, 14);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border:0;
+    border-radius: 27px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
 
-.search0{
-    float: right;
-}
+  /* contact styling */
+  .column{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 30px;
+  }
 
-footer{
-    position: fixed;
-    bottom: 0;
-    background-color: navy;
-    color: #fff;
-}
+  .row{
+    width: 40%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+  }
 
-form{
-    text-align: center;
-    background-color: hsl(0, 0%, 0%, .5);
-    margin-left: 300px;
-    margin-right: 300px;
-}
+  .row1{
+    width: 60%;
+    margin-left: 30px;
+  }
 
-h2{
-    text-align: center;
-}
 
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+  

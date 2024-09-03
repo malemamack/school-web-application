@@ -5,20 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learner Profile</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .button-container {
+            margin-bottom: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+        .edit-button {
+            background-color: #4CAF50; /* Green */
+        }
+        .delete-button {
+            background-color: #f44336; /* Red */
+        }
+        .view-button {
+            background-color: #008CBA; /* Blue */
+        }
+    </style>
 </head>
 <body>
-    <nav>
+    <!-- <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="academics.html">Academics</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
-    </nav>
+    </nav> -->
     <main>
         <section id="learner-profile">
             <h2>Learner Profile</h2>
             <!-- Learner profile information will be dynamically loaded here -->
+
+            <!-- Learners Table -->
+            <h2>Learners</h2>
+            <table id="learnersTable">
+                <thead>
+                    <!-- <tr>
+                        <th>Learner ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Date of Birth</th>
+                        <th>Grade</th>
+                        <th>Parent ID</th>
+                    </tr> -->
+                </thead>
+                <tbody>
+                    <!-- Dynamic rows will be inserted here -->
+                </tbody>
+            </table>
+        
+            <!-- Progress Reports Table -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>learner ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Date of Birth</th>
+                        <th>Grade</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Alice</td>
+                        <td>Smith</td>
+                        <td>2008-03-12</td>
+                        <td>5</td>
+                        <td>
+                            <!-- <button class="button edit-button" onclick="editStudent('001')">Edit</button>
+                            <button class="button delete-button" onclick="deleteStudent('001')">Delete</button> -->
+                            <button class="button view-button" onclick="viewStudent('001')">View</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bob</td>
+                        <td>Johnson</td>
+                        <td>2007-07-25</td>
+                        <td>6</td>
+                        <td>
+                            <!-- <button class="button edit-button" onclick="editStudent('002')">Edit</button>
+                            <button class="button delete-button" onclick="deleteStudent('002')">Delete</button> -->
+                            <button class="button view-button" onclick="viewStudent('001')">View</button>
+                        </td>
+                    </tr>
+                </tbody>
         </section>
     </main>
 </body>
